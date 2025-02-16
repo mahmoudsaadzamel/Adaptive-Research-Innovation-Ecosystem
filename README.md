@@ -1,1 +1,0 @@
-# Adaptive-Research-Innovation-Ecosystem

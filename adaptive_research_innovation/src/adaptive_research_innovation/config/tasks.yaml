@@ -1,0 +1,25 @@
+research_task:
+  description: >
+    Fetch data about {topic} from an external API.
+  expected_output: >
+    A structured dataset containing the latest research information on {topic}.
+  agent: research_agent
+
+analysis_task:
+  description: >
+    Process the collected data using algorithms to identify key trends and patterns.
+    Generate meaningful insights that will be used in the innovation stage.
+  expected_output: >
+    A summarized report containing identified trends, anomalies, and key findings.
+  agent: analysis_agent
+
+innovation_task:
+  description: >
+    Use insights from the analysis to propose new research directions.
+    Resolve conflicting insights through a coordination mechanism.
+    Generate a markdown report with the proposed research ideas.
+    Create a reference section at the end of report that contains all references.
+  expected_output: >
+    A markdown document summarizing research ideas and improvement proposals.
+  agent: innovation_agent
+  output_file: output/report.md
