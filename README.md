@@ -141,6 +141,4 @@ crewai run
 
 - Want to contribute? Feel free to submit a pull request or open an issue on GitHub!
 
-### **License**
 
-📜 MIT License – Feel free to modify and use this project as needed.
