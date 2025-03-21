@@ -40,7 +40,7 @@ Each agent has clearly defined **roles, goals, and responsibilities**, ensuring 
 ### 🔍 **Research Agent**
 
 - **Role**: Data Collector
-- **Goal**: Fetch relevant research data from third-party APIs.
+- **Goal**: Fetch relevant research data from sources.
 - **Functionality**:
   - Continuously gathers data from sources like research publications, news, or market data APIs.
   - Implements filtering and preprocessing routines.
@@ -56,7 +56,7 @@ Each agent has clearly defined **roles, goals, and responsibilities**, ensuring 
 ### 💡 **Innovation Agent**
 
 - **Role**: Research Innovator
-- **Goal**: Propose new research directions based on insights.
+- **Goal**: Propose new research directions based on  external insights.
 - **Functionality**:
   - Resolves conflicting insights using negotiation mechanisms.
   - Generates **a markdown report** summarizing research ideas and improvement proposals.
@@ -69,7 +69,7 @@ Each agent is assigned a task that aligns with its expertise.
 
 | **Task**        | **Agent Responsible** | **Description**                                                            |
 | --------------- | --------------------- | -------------------------------------------------------------------------- |
-| Research Task   | Research Agent        | Collects and preprocesses data from an external API.                       |
+| Research Task   | Research Agent        | Collects and preprocesses data from external sources.                       |
 | Analysis Task   | Analysis Agent        | Processes collected data, identifies key patterns, and generates insights. |
 | Innovation Task | Innovation Agent      | Creates a structured report of research proposals in markdown format.      |
 
