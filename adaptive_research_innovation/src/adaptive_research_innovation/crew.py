@@ -1,6 +1,8 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task, before_kickoff, after_kickoff
 from crewai_tools import SerperDevTool
+from .generate_pdf import convert_markdown_to_pdf
+
 
 @CrewBase
 class AdaptiveResearchInnovation():
@@ -14,8 +16,12 @@ class AdaptiveResearchInnovation():
 	@after_kickoff
 	def after_kickoff_function(self, result):
 		print(f"Project execution completed. Final result stored in output/report.md")
+		# Generate PDF
+		print("Converting Markdown to PDF...")
+		convert_markdown_to_pdf()
+		print("PDF generation complete. Check output/report.pdf")
 		return result
-	
+      
 	agents_config = 'config/agents.yaml'
 	tasks_config = 'config/tasks.yaml'
 
