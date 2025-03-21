@@ -29,7 +29,7 @@ The system consists of **three intelligent agents** that work sequentially to co
 
 1️⃣ **Research Agent** → Gathers relevant data from APIs and preprocesses it.  
 2️⃣ **Analysis Agent** → Identifies key trends and patterns using advanced algorithms.  
-3️⃣ **Innovation Agent** → Integrates insights, resolves conflicts, and generates research proposals in markdown format.
+3️⃣ **Innovation Agent** → Generates a Markdown (MD) report, which is then converted into a PDF for final output.
 
 Each agent has clearly defined **roles, goals, and responsibilities**, ensuring an efficient research pipeline.
 
@@ -59,7 +59,7 @@ Each agent has clearly defined **roles, goals, and responsibilities**, ensuring 
 - **Goal**: Propose new research directions based on  external insights.
 - **Functionality**:
   - Resolves conflicting insights using negotiation mechanisms.
-  - Generates **a markdown report** summarizing research ideas and improvement proposals.
+  - Generates **a markdown report** summarizing research ideas and improvement proposals,then converted into a **PDF** for final output.
 
 ---
 
@@ -71,7 +71,7 @@ Each agent is assigned a task that aligns with its expertise.
 | --------------- | --------------------- | -------------------------------------------------------------------------- |
 | Research Task   | Research Agent        | Collects and preprocesses data from external sources.                       |
 | Analysis Task   | Analysis Agent        | Processes collected data, identifies key patterns, and generates insights. |
-| Innovation Task | Innovation Agent      | Creates a structured report of research proposals in markdown format.      |
+| Innovation Task | Innovation Agent      | Creates a structured report of research proposals in markdown format, then converts it into a PDF for final output.|
 
 ---
 
